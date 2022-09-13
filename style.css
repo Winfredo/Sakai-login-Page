@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;  
+}
+
+.container{
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+    height: 350px;
+     top: 50%; 
+     left: 50%; 
+    justify-content: center;
+     transform: translate(-50%, -50%); 
+   
+}
