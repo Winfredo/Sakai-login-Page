@@ -10,12 +10,27 @@ body{
     position: absolute;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: white;
     width: 500px;
     height: 350px;
      top: 50%; 
      left: 50%; 
     justify-content: center;
      transform: translate(-50%, -50%); 
-   
+     box-shadow: 5px 10px  18px grey;  
 }
+.login{
+    color: #00357a;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+.logo{
+    color: #00357a;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px;
+    
+}
+
