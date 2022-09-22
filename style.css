@@ -11,7 +11,7 @@ body{
 
 .container{
     
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
     background-color: white;
