@@ -55,9 +55,8 @@ body{
 }
 
 input{
-    height: 25px;
-   
-   
+    height: 27px;
+    
 }
 
 .text-class{
@@ -68,10 +67,30 @@ input{
 
 .password-class{
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .last-part{
     text-align: right;
     margin-right: 40px;
+}
+
+.login-button{
+    background-color: #ffbf0f;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    padding:5px 15px 5px 15px ;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #6e540b;
+    transition: 0.5s;
+}
+
+.forgot-password{
+    color:#00357A;
+    cursor: pointer;
 }
