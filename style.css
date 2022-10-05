@@ -6,7 +6,8 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 100vh;  
+    height: 100vh; 
+    font-family: "Open Sans",sans-serif; 
 }
 
 .container{
@@ -14,11 +15,12 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
+    overflow: visible;
     background-color: white;
     position: absolute;  
     width: 80%;  
     width: 450px;
-    height: 350px; 
+    height: 400px; 
     top: 50%; 
     left: 50%; 
     justify-content: center;
@@ -40,8 +42,12 @@ body{
 .logo{
     color: #00357a;
     text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
     font-weight: bolder;
-    padding: 10px 10px;
+    padding-bottom: 20px;
 
 }
 
@@ -56,8 +62,8 @@ body{
 }
 
 input{
-    height: 25px;
-    size: "15";
+    height: 27px;
+     size: "15";
     /* justify-content: center;
     justify-items: center;
     align-items: center;
@@ -99,3 +105,20 @@ input{
     color:#00357A;
     cursor: pointer;
 }
+
+.pic{
+    
+    height: 40px;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.contain{
+   display: flex; 
+   justify-content: center;
+}
+
+/* label{
+    display: block;
+    min-height: 0.5em;
+} */
