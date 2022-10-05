@@ -10,15 +10,23 @@ body{
     font-family: "Open Sans",sans-serif; 
 }
 
+
+/* position: absolute;
+top: 0;
+left: 10%;
+width: 80%;
+margin: 2em auto;
+} */
+
 .container{
-    
+   
     position: relative;
     justify-content: center;
     align-items: center;
     overflow: visible;
     background-color: white;
     position: absolute;  
-    width: 80%;  
+     
     width: 450px;
     height: 400px; 
     top: 50%; 
@@ -30,6 +38,7 @@ body{
 }
 .container-1{
     padding: 10px;
+    display: ;
 }
 
 .login{
@@ -51,17 +60,23 @@ body{
 
 }
 
-.user{
+.user , .user1{
     position: relative;
     font-size: 1rem;
     padding-right: 10rem;
     font-weight: bold;
 }
+
+.user1{
+    padding-top: 30px;
+}
+
 .text-name{
     margin-bottom: 10px;
 }
 
 input{
+    padding-left: 5px;
     height: 27px;
      size: "15";
     /* justify-content: center;
@@ -83,7 +98,7 @@ input{
 
 .last-part{
     text-align: right;
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 .login-button{
@@ -116,6 +131,11 @@ input{
 .contain{
    display: flex; 
    justify-content: center;
+}
+
+.container-2{
+   display: flex;
+   justify-content: space-between;
 }
 
 /* label{
