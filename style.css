@@ -85,6 +85,9 @@ input{
     height: 27px;
     width: 14rem;
     margin-right: 16px;
+    text-decoration: none;
+    transform: none;
+    
     /* justify-content: center;
     justify-items: center;
     align-items: center;
@@ -128,6 +131,7 @@ input{
 .forgot-password{
     color:#00357A;
     cursor: pointer;
+    font-size: 14px;
 }
 
 
@@ -136,4 +140,5 @@ input{
    display: flex;
    justify-content: space-between;
 }
+
 
