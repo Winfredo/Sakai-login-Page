@@ -24,7 +24,7 @@ body{
     position: absolute;
     /* width: 80%; */
     width: 430px;
-    height: 330px; 
+    height: 350px; 
     top: 50%; 
     left: 50%; 
     justify-content: center;
@@ -69,10 +69,9 @@ body{
    
 }
 
-.user , .user1{
+.user{
     position: relative;
     font-size: 1rem;
-    padding-right: 10rem;
     font-weight: bold;
 }
 .text-name{
@@ -80,10 +79,12 @@ body{
 }
 
 input{
-    margin-right: ;
+    
     position: relative;
     height: 27px;
-     ;
+    outline: none;
+    width: 14rem;
+    margin-right: 16px;
     /* justify-content: center;
     justify-items: center;
     align-items: center;
@@ -114,7 +115,7 @@ input{
     border: none;
     outline: none;
     padding:5px 15px 5px 15px ;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     cursor: pointer;
 }
 
