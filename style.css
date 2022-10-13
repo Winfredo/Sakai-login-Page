@@ -73,6 +73,7 @@ body{
     position: relative;
     font-size: 1rem;
     font-weight: bold;
+    padding-top: 5px;
 }
 .text-name{
     margin-bottom: 10px;
@@ -82,7 +83,6 @@ input{
     
     position: relative;
     height: 27px;
-    outline: none;
     width: 14rem;
     margin-right: 16px;
     /* justify-content: center;
@@ -111,11 +111,12 @@ input{
 
 .login-button{
     background-color: #ffbf0f;
+    font-family: "Open Sans",sans-serif;
     font-size: 1em;
     border: none;
     outline: none;
     padding:5px 15px 5px 15px ;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
